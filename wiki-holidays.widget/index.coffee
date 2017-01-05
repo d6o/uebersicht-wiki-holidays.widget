@@ -1,4 +1,4 @@
-command: 'curl -s "https://en.wikipedia.org/w/api.php?action=parse&page=$(date +"%B_%d")&format=json&section=4&prop=text"'
+command: 'curl -s "https://en.wikipedia.org/w/api.php?action=parse&page=$(date +"%B_%-d")&format=json&section=4&prop=text"'
 
 refreshFrequency: 30000
 
